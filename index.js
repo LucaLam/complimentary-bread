@@ -43,7 +43,7 @@ document.querySelector(".toast").addEventListener('click', function(){
     complimentContainer.style.display = "block";
     complimentContainer.textContent = complimentTxt;
 
-    setTimeout(disappearDiv, 2500);
+    setTimeout(disappearDiv, 4000);
     
 })
 
