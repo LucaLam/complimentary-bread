@@ -12,22 +12,22 @@ document.querySelector(".toast").addEventListener('click', function(){
         complimentTxt ="You're a gift to those around you.";
         break;
         case 3: 
-        complimentTxt ="You're a smart cookie.";
+        complimentTxt ="You are making a difference.";
         break;
         case 4: 
         complimentTxt ="You are awesome!";
         break;
         case 5: 
-        complimentTxt ="You have impeccable manners."
+        complimentTxt ="You're like a ray of sunshine on a really dreary day."
         break;
         case 6: 
-        complimentTxt ="I like your style."
+        complimentTxt ="You should be proud of yourself."
         break;
         case 7: 
-        complimentTxt ="You have the best laugh."
+        complimentTxt ="You're more helpful than you realize."
         break;
         case 8: 
-        complimentTxt ="I appreciate you."
+        complimentTxt ="You're someone's reason to smile."
         break;
         case 9: 
         complimentTxt ="You are strong."
