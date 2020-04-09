@@ -1,0 +1,11 @@
+{
+  "name": "bread",
+  "version": "1.0.0",
+  "description": "A site to boost your self-esteem",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-sass styles.scss styles.css -w"
+  },
+  "author": "",
+  "license": "ISC"
+}

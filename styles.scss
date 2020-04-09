@@ -1,0 +1,26 @@
+$color-primary: #049DD9;
+$color-secondary: #04B2D9;
+$main-font: 'Lato', sans-serif;
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.54%;
+    background-image: linear-gradient(to bottom, rgba($color-primary, .8), rgba($color-secondary, .8));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+body{
+    box-sizing: border-box;
+    padding: 3rem;
+    font-family: $main-font;
+    font-size: 1.6rem;
+}
