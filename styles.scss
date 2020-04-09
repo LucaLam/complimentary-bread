@@ -1,7 +1,10 @@
+//VARIABLES
 $color-primary: #049DD9;
 $color-secondary: #04B2D9;
+$font-color: #F2F2F2;
 $main-font: 'Lato', sans-serif;
 
+//CSS RESET
 *,
 *::after,
 *::before{
@@ -15,12 +18,109 @@ html{
     background-image: linear-gradient(to bottom, rgba($color-primary, .8), rgba($color-secondary, .8));
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
 }
 
 body{
     box-sizing: border-box;
+    height: 100vh;
     padding: 3rem;
+    padding-bottom: 0;
     font-family: $main-font;
     font-size: 1.6rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+//CONTENT
+
+header{
+    height: 6vh;
+    color: $font-color;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 1px solid $font-color;
+
+    &__text{
+
+    }
+}
+
+.compliment-container{
+    height: 35vh;
+    margin-top: -12rem;
+    margin-bottom: 2rem;
+    padding: 8rem;
+    color: $font-color;
+    font-size: 5rem;
+    text-align: center;
+    border: 1px aquamarine dashed;
+    display: none;
+}
+
+.main{
+    &__bread-container{
+    width: 18rem;
+    margin: 0 auto;
+    animation: pulse infinite 3s;
+    }
+
+}
+
+footer{
+    height: 5vh;
+    border-top: 1px solid $font-color;
+    color: $font-color;
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-align: center;
+
+    p{
+        display: block;
+        margin: 1rem auto 0 auto;
+    }
+}
+
+a{
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+}
+a:hover{
+    color: darken($color: #F2F2F2, $amount: 10%);
+}
+
+//Animations
+
+@keyframes pulse{
+
+    0%{
+        transform: rotate(0deg);
+    }
+
+    20%{
+        transform: rotate(-10deg);
+        transform: scale(1.1);
+
+    }
+
+    50%{
+        transform: rotate(10deg);
+    }
+
+    80%{
+        transform: rotate(-10deg);
+        transform: scale(1.1);
+
+    }
+
+    100%{
+        transform: rotate(5deg);
+        
+    }
+
+
 }
