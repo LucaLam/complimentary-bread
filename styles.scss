@@ -44,6 +44,14 @@ header{
     text-align: center;
     border-bottom: 1px solid $font-color;
 
+    @media screen and (max-width: 425px){
+        font-size: 1.5rem;
+    }
+
+    @media screen and (max-width: 320px){
+        font-size: 1.2rem;
+    }
+
     &__text{
 
     }
@@ -59,6 +67,25 @@ header{
     text-align: center;
     border: 1px aquamarine dashed;
     display: none;
+
+    @media screen and (max-width: 700px){
+        font-size: 3.5rem;
+    }
+
+    @media screen and (max-width: 500px){
+        padding: 5rem;
+    }
+
+    @media screen and (max-width: 425px){
+        margin-top: 0;
+        padding-top: 3rem;
+    }
+
+    @media screen and (max-width: 320px){
+        height: 25vh;
+        padding: 3rem;
+        font-size: 2.5rem;
+    }
 }
 
 .main{

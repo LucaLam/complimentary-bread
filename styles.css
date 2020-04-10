@@ -30,6 +30,12 @@ header {
   text-transform: uppercase;
   text-align: center;
   border-bottom: 1px solid #F2F2F2; }
+  @media screen and (max-width: 425px) {
+    header {
+      font-size: 1.5rem; } }
+  @media screen and (max-width: 320px) {
+    header {
+      font-size: 1.2rem; } }
 
 .compliment-container {
   height: 35vh;
@@ -41,6 +47,21 @@ header {
   text-align: center;
   border: 1px aquamarine dashed;
   display: none; }
+  @media screen and (max-width: 700px) {
+    .compliment-container {
+      font-size: 3.5rem; } }
+  @media screen and (max-width: 500px) {
+    .compliment-container {
+      padding: 5rem; } }
+  @media screen and (max-width: 425px) {
+    .compliment-container {
+      margin-top: 0;
+      padding-top: 3rem; } }
+  @media screen and (max-width: 320px) {
+    .compliment-container {
+      height: 25vh;
+      padding: 3rem;
+      font-size: 2.5rem; } }
 
 .main__bread-container {
   width: 18rem;
