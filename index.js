@@ -1,8 +1,8 @@
-var  complimentTxt, complimentContainer;
+let complimentTxt, complimentContainer;
 
 document.querySelector(".toast").addEventListener('click', function(){
 
-    var complimentNumber = Math.floor(Math.random() * 10);
+    const complimentNumber = Math.floor(Math.random() * 10);
 
     switch(complimentNumber){
         case 1: 
